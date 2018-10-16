@@ -46,7 +46,7 @@
     var $navbar = document.querySelector('#huxblog_navbar');
     var $collapse = document.querySelector('.navbar-collapse');
 
-    var __HuxNav__ = {
+    var __SdxNav__ = {
         close: function(){
             $navbar.className = " ";
             // wait until animation end.
@@ -66,9 +66,9 @@
     // Bind Event
     $toggle.addEventListener('click', function(e){
         if ($navbar.className.indexOf('in') > 0) {
-            __HuxNav__.close()
+            __SdxNav__.close()
         }else{
-            __HuxNav__.open()
+            __SdxNav__.open()
         }
     })
 
@@ -79,13 +79,13 @@
      * $toggle/$collapse will break global delegation.
      * 
      * Instead, we use a 'e.target' filter to prevent handler
-     * added to document close HuxNav.  
+     * added to document close SdxNav.  
      *
      * Also, we use 'click' instead of 'touchstart' as compromise
      */
     document.addEventListener('click', function(e){
         if(e.target == $toggle) return;
         if(e.target.className == 'icon-bar') return;
-        __HuxNav__.close();
+        __SdxNav__.close();
     })
 </script>
