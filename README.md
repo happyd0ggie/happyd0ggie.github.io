@@ -11,10 +11,10 @@
 Want to clone a boilerplate instead of my buzz blog? Here comes this!  
 
 ```
-$ git clone git@github.com:shengdexiang/huxblog-boilerplate.git
+$ git clone git@github.com:shengdexiang/sdxblog-boilerplate.git
 ```
 
-**[View Boilerplate Here &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
+**[View Boilerplate Here &rarr;](http://github.com/shengdexiang/sdxblog-boilerplate/)**
 
 
 ## Porting 
@@ -51,7 +51,6 @@ Thanks [@kitian616/jekyll-TeXt-theme](https://github.com/kitian616/jekyll-TeXt-t
 
 - Annoyed to delete my blog post after clone or pull? **Boilerplate** comes to help you get started quickly and easily merge update.
 - `-apple-system` is added in font rule, which display beautiful new font **San Francisco** in iOS 9 by default.
-- Fixed [issue#15](https://github.com/Huxpro/huxpro.github.io/issues/15) about code wrap.
 
 ##### V1.5.1
 
@@ -140,8 +139,8 @@ You can easily get started by modifying `_config.yml`:
 
 ```
 # Site settings
-title: Hux Blog             # title of your website
-SEOTitle: Hux Blog			# check out docs for more detail
+title: S.D.X. Blog             # title of your website
+SEOTitle: S.D.X. Blog			# check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
@@ -167,7 +166,7 @@ layout:     post
 title:      "Hello 2015"
 subtitle:   "Hello World, Hello Blog"
 date:       2015-01-29 12:00:00
-author:     "Hux"
+author:     "S.D.X."
 header-img: "img/post-bg-2015.jpg"
 tags:
     - Life
@@ -302,7 +301,6 @@ There are a number of tasks it performs like minification of the JavaScript, com
 
 #### Header Image
 
-Change header images of any pages or any posts is pretty easy as mentioned above. But, thanks to [issue #6 (in Chinese)](https://github.com/Huxpro/huxpro.github.io/issues/6) asked, **how to make it looks great?**
 
 **Well...it is actually a design issue**, not a coding stuff. It is better that you have basic design knowledge, but not is ok, let me told you how to make it well-designed:
 
@@ -314,7 +312,7 @@ In technical views, it can be done with CSS. However, the opacity of the black o
 #### SEO Title
 
 Before V1.4, site setting `title` is not only used for displayed in Home Page and Navbar, but also used to generate the `<title>` in HTML.
-It's possible that you want the two things different. For me, my site-title is **“Hux Blog”** but I want the title shows in search engine is **“黄玄的博客 | Hux Blog”** which is multi-language.
+It's possible that you want the two things different. For me, my site-title is **“S.D.X. Blog”** but I want the title shows in search engine is **“S.D.X.的博客 | S.D.X. Blog”** which is multi-language.
 
 So, the SEO Title is introduced to solve this problem, you can set `SEOTitle` different from `title`, and it would be only used to generate HTML `<title>` and setting DuoShuo Sharing.
 
@@ -350,7 +348,7 @@ This blog started in Jekyll 2 time when `jekyll-paginate` is standard. With Jeky
 ## License
 
 Apache License 2.0.
-Copyright (c) 2015-2016 Huxpro
+Copyright (c) 2015-2018 S.D.X.
 
-Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
+S.D.X. Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
 Copyright (c) 2013-2016 Blackrock Digital LLC.
