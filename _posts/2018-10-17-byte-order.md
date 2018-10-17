@@ -16,6 +16,9 @@ tags:
 
 根据最高位字节存放的位置，字节序分为大端法(大端序)和小端法(小端序)。大端序是最高位字节存放在内存的低地址处，而小端序是最高位字节存放在内存的高地址处。
 比如整数`89978`，十六进制为`0x15f7b`，按照大端序在内存中的摆放位置为`15f7b`，其中，最高位字节`0x01`放在内存的低地址处，按照小端序则相反为`7b5f01`，其中，最高位字节`0x01`放在内存的高地址处。
+大端法更符合我们的阅读习惯，从左到右。
+大端法 &rarr; ![](https://upload.wikimedia.org/wikipedia/commons/5/54/Big-Endian.svg)
+小端法 &rarr; ![](https://upload.wikimedia.org/wikipedia/commons/e/ed/Little-Endian.svg)
 
 **为啥会存在网络字节序**
 
