@@ -25,12 +25,12 @@ body, html {
 }
 
 @font-face {
-	font-family: 'huxico';
-	src:url('../fonts/huxico.eot');
-	src:url('../fonts/huxico.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/huxico.woff') format('woff'),
-		url('../fonts/huxico.ttf') format('truetype'),
-		url('../fonts/huxico.svg#huxico') format('svg');
+	font-family: 'sdxico';
+	src:url('../fonts/sdxico.eot');
+	src:url('../fonts/sdxico.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sdxico.woff') format('woff'),
+		url('../fonts/sdxico.ttf') format('truetype'),
+		url('../fonts/sdxico.svg#sdxico') format('svg');
 	font-weight: normal;
 	font-style: normal;
 } /* Made with http://icomoon.io/ */
@@ -99,7 +99,7 @@ body, html {
 .cbp_tmtimeline > li .cbp_tmicon {
 	width: 40px;
 	height: 40px;
-	font-family: 'huxico';
+	font-family: 'sdxico';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -121,27 +121,27 @@ body, html {
 
 .cbp_tmicon-phone:before {
 	content: "\e004";
-	font-family: 'huxico';
+	font-family: 'sdxico';
 }
 
 .cbp_tmicon-screen:before {
 	content: "\e005";
-	font-family: 'huxico';
+	font-family: 'sdxico';
 }
 
 .cbp_tmicon-html:before {
 	content: "\e001";
-	font-family: 'huxico';
+	font-family: 'sdxico';
 }
 
 .cbp_tmicon-video:before {
 	content: "\e002";
-	font-family: 'huxico';
+	font-family: 'sdxico';
 }
 
 .cbp_tmicon-font:before {
 	content: "\e003";
-	font-family: 'huxico';
+	font-family: 'sdxico';
 }
 
 /** Venders Logo **/

@@ -144,8 +144,8 @@ SEOTitle: S.D.X. Blog			# check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
-github_username: huxpro     # modify this account to yours
-weibo_username: huxpro      # the footer woule be auto-updated.
+github_username: shengdexiang     # modify this account to yours
+weibo_username: shengdexiang      # the footer woule be auto-updated.
 
 # Build settings
 # paginate: 10              # nums of posts in one page
@@ -184,7 +184,7 @@ Seeing more information may be necessary for you to display, from V1.1, a clean,
 # Sidebar settings
 sidebar: true
 sidebar-about-description: "your description here"
-sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
+sidebar-avatar: /img/avatar-sdx.jpg     # use absolute URL.
 ```
 
 We default support *[Featured Tags](#featured-tags)*, *[Mini About Me](#mini-about-me)* and *[Friends](#friends)* these three modules and you can add your own. The sidebar is naturally responsive and would be push to bottom in a small screen size (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))  

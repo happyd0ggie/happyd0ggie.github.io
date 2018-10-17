@@ -6,7 +6,7 @@
 
  /*!
  * S.D.X. Blog v1.6.0 (http://startbootstrap.com)
- * Copyright 2016 @huxpro
+ * Copyright 2016 @S.D.X.
  * Licensed under Apache 2.0 
  */
 

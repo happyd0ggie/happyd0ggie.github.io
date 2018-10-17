@@ -19,14 +19,6 @@
 参考文档：[using jekyll with pages](https://help.github.com/articles/using-jekyll-with-pages/) & [Upgrading from 2.x to 3.x](http://jekyllrb.com/docs/upgrading/2-to-3/)
 
 
-## 关于模板(beta)
-
-我的博客仓库——`shengdexiang.github.io`，是经常修改的，而且还会有人乱提交代码，因此给大家做了一个稳定版的模板。大家可以直接fork模板——`huxblog-boilerplate`,要改的地方我都说明了。或者可以直接下载zip到本地自己去修改。
-
-```
-$ git clone git@github.com:shengdexiang/sdxblog-boilerplate.git
-```
-
 **[在这里预览模板 &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
 
 ## 各版本特性
@@ -44,7 +36,7 @@ $ git clone git@github.com:shengdexiang/sdxblog-boilerplate.git
 ## 支持
 
 * 你可以自由的fork。如果你能将主题作者和 github 的地址保留在你的页面底部，我将非常感谢你。
-* 如果你喜欢我的这个博客模板，请在`huxpro.github.io`这个repository点个赞——右上角**star**一下。
+* 如果你喜欢我的这个博客模板，请在`shengdexiang.github.io`这个repository点个赞——右上角**star**一下。
 
 ## 说明文档
 
@@ -84,8 +76,8 @@ SEOTitle: S.D.X. Blog			# 在后面会详细谈到
 description: "Cool Blog"    # 随便说点，描述一下
 
 # SNS settings      
-github_username: huxpro     # 你的github账号
-weibo_username: huxpro      # 你的微博账号，底部链接会自动更新的。
+github_username: shengdexiang     # 你的github账号
+weibo_username: shengdexiang      # 你的微博账号，底部链接会自动更新的。
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
@@ -123,7 +115,7 @@ tags:
 # Sidebar settings
 sidebar: true  #添加侧边栏
 sidebar-about-description: "简单的描述一下你自己"
-sidebar-avatar: /img/avatar-hux.jpg     #你的大头贴，请使用绝对地址.
+sidebar-avatar: /img/avatar-sdx.jpg     #你的大头贴，请使用绝对地址.
 ```
 
 侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。具体请见bootstrap栅格系统 <http://v3.bootcss.com/css/>
