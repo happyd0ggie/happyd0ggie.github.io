@@ -74,6 +74,7 @@ char *inet_ntoa(struct in_addr in);
 ```
 
 - 本机字节序 &rarr; IP字符串
+
 本机字节序 &rarr; 网络字节序 &rarr; IP字符串
 
 - IP字符串 &rarr; 网络字节序
@@ -96,4 +97,5 @@ int inet_aton(const char *cp, struct in_addr *inp);
 ```
 
 - IP字符串 &rarr; 本机字节序
+
 IP字符串 &rarr; 网络字节序 &rarr; 本机字节序
