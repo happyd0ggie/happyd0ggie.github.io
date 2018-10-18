@@ -91,7 +91,8 @@ char *inet_ntoa(struct in_addr in);
 **python**
 ```
 import socket
-socket.inet_aton('192.168.1.1')
+packed_ip = socket.inet_aton('192.168.1.1')
+netlong = int(packed_ip.hex(), 16)
 ```
 
 
