@@ -36,4 +36,4 @@ REM start wechat
 START "" "C:\\Program Files (x86)\\Tencent\\WeChat\\WeChat.exe"
 ```
 
-注：代码首先使用TrueCrypt的命令行接口自动加载加密卷，其中`<path-to-encrypted-volume>`是指向加密卷文件的路径，`<password>`是创建加密卷是设置的密码；然后暂停2秒钟一次启动并自动登陆企业微信、TIM和微信。
+注：代码首先使用 `TrueCrypt` 的命令行接口自动加载加密卷，其中`<path-to-encrypted-volume>`是指向加密卷文件的路径，`<password>`是创建加密卷是设置的密码；然后暂停2秒钟依次启动并自动登陆企业微信、TIM和微信。
