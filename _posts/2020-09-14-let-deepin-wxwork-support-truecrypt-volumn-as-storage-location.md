@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "让 Linux Deepin 企业微信支持选择加密盘作为文件保存位置"
-subtitle: 'let linux deepin WXWork support truecrypt volumn to storage data'
+subtitle: '深度用点心吧'
 author: "S.D.X."
 header-style: text
 tags:
@@ -30,12 +30,13 @@ truecrypt 加密盘目录了, 会提示`目录不可访问, 请重新选择`.
 7. `CallWXWork`
 8. `CallProcess`
 9. `wine`
-在追踪到第 6 步时发现了有价值的东西: 删除目录下的 c: z: y: 然后重建软链.
 
+在追踪到第 6 步时发现了有价值的东西: 删除目录下的 c: z: y: 然后重建软链.
 到此发现了问题, 只要重启系统/企微, 以上软链就会重建. 这些软件分别指向:
 - `c:` -> `../drive_c`
 - `z:` -> `/`
 - `y:` -> `$HOME`
+
 并没有指向加密盘的软链, 那么加上即可解决.
 
 ```
