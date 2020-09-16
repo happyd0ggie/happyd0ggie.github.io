@@ -5,7 +5,7 @@ subtitle: '命令行真是好玩意儿'
 author: "S.D.X."
 header-style: text
 tags:
-  - windows,truecrypt
+  - windows
 ---
 
 处于安全考虑，我们经常把重要文档和聊天记录加密保存，让心怀不轨的人即使拿到了数据也是加密的。
