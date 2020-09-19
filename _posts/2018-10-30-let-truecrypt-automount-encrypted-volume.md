@@ -2,7 +2,7 @@
 layout: post
 title: "让TrueCrypt开机自动挂载加密卷"
 subtitle: '命令行真是好玩意儿'
-author: "S.D.X."
+author: "Y"
 header-style: text
 tags:
   - windows

@@ -1,11 +1,11 @@
 # Site settings
-title: S.D.X. Blog
-SEOTitle: S.D.X.的博客 | S.D.X. Blog
+title: Y Blog
+SEOTitle: Y的博客 | Y Blog
 header-img: img/home-bg.jpg
-email: shengdexiang@gmail.com
-description: "关于程序与设计、黑客与画家 | s.d.x.，Software Engineer，Backend Developer | 这里是 @s.d.x. 的个人博客，与你一起发现更大的世界。"
-keyword: "shengdexiang, s.d.x., s.d.x.的博客, S.D.X. Blog, 博客, 个人网站, 互联网, Web, JavaScript, 后端, 设计"
-url: "https://shengdexiang.github.io"  # your host, for absolute URL
+email: happyd0ggie@gmail.com
+description: "Y"
+keyword: "Y, Y的博客, Y Blog, 博客, 个人网站, 互联网, Python, C, 后端"
+url: "https://happyd0ggie.github.io"  # your host, for absolute URL
 baseurl: ""                            # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,8 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     shengdexiang
-zhihu_username:     shengdexiang
-github_username:    shengdexiang
-twitter_username:   shengdexiang
+zhihu_username:     happyd0ggie
+github_username:    happyd0ggie
 
 
 # Build settings
@@ -69,7 +67,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: shengdexiang.github.io
+ga_domain: happyd0ggie.github.io
 
 
 

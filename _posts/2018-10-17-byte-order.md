@@ -2,7 +2,7 @@
 layout: post
 title: "网络字节序与本机字节序"
 subtitle: 'always use network byte order'
-author: "S.D.X."
+author: "Y"
 header-style: text
 tags:
   - network

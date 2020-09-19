@@ -2,7 +2,7 @@
 layout: post
 title: "那些年那些事"
 subtitle: 'let the past be the past'
-author: "S.D.X."
+author: "Y"
 header-style: text
 tags:
   - 生活

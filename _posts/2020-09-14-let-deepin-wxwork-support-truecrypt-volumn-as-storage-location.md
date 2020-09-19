@@ -2,7 +2,7 @@
 layout: post
 title: "让 Linux Deepin 企业微信支持选择加密盘作为文件保存位置"
 subtitle: '深度用点心吧'
-author: "S.D.X."
+author: "Y"
 header-style: text
 tags:
   - 企业微信

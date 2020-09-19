@@ -1,6 +1,6 @@
 /*!
- * S.D.X. Blog v1.7.0 (http://shengdexiang.github.io)
- * Copyright 2018 S.D.X. <shengdexiang@gmail.com>
+ * Y Blog v1.7.0 (http://happyd0ggie.github.io)
+ * Copyright 2020 Y <happyd0ggie@163.com>
  */
 
 @media (min-width: 1200px) {
@@ -556,7 +556,7 @@ pre.highlight {
   }
 }
 body {
-    /* S.D.X. learn from
+    /* Y learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -578,7 +578,7 @@ h3,
 h4,
 h5,
 h6 {
-    /* S.D.X. learn from
+    /* Y learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -787,7 +787,7 @@ samp {
   }
   /**
    * Animation
-   * S.D.X.Blog-Navbar using genuine Material Design Animation
+   * YBlog-Navbar using genuine Material Design Animation
    */
   #sdxblog_navbar {
     /**
@@ -849,7 +849,7 @@ samp {
   left: 0;
   width: 100%;
   z-index: 3;
-    /* S.D.X. learn from
+    /* Y learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -980,7 +980,7 @@ samp {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 0px;
-  /* 0 on mobile, modify by S.D.X. */
+  /* 0 on mobile, modify by Y */
 }
 .intro-header.style-text {
   background: none;
@@ -1045,7 +1045,7 @@ samp {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-    /* S.D.X. learn from
+    /* Y learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -1073,7 +1073,7 @@ samp {
   display: block;
 }
 .intro-header .post-heading .subheading {
-    /* S.D.X. learn from
+    /* Y learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -1273,7 +1273,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-    /* S.D.X. learn from
+    /* Y learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -1302,7 +1302,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-    /* S.D.X. learn from
+    /* Y learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -1362,7 +1362,7 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
-/* S.D.X. add tags support */
+/* Y add tags support */
 .d-none {
   display: none !important;
 }
@@ -1489,7 +1489,7 @@ img::-moz-selection {
 }
 .mini-post-list .tag-text {
   font-weight: 200;
-    /* S.D.X. learn from
+    /* Y learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -1531,14 +1531,14 @@ img::-moz-selection {
   }
 }
 /* Tags support End*/
-/* S.D.X. make all img responsible in post-container */
+/* Y make all img responsible in post-container */
 .post-container img {
   display: block;
   max-width: 100%;
   height: auto;
   margin: 1.5em auto 1.6em auto;
 }
-/* S.D.X. Optimize UserExperience */
+/* Y Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
   background-color: inherit;
@@ -1546,7 +1546,7 @@ img::-moz-selection {
 .navbar-default .navbar-toggle:active {
   background-color: rgba(255, 255, 255, 0.25);
 }
-/* S.D.X. customize Style for navBar button */
+/* Y customize Style for navBar button */
 .navbar-default .navbar-toggle {
   border-color: transparent;
   padding: 19px 16px;
@@ -1563,7 +1563,7 @@ img::-moz-selection {
 .navbar-default .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 3px;
 }
-/* S.D.X. customize Style for Duoshuo */
+/* Y customize Style for Duoshuo */
 .comment {
   margin-top: 20px;
 }
