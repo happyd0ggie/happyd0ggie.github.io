@@ -22,6 +22,7 @@ const PRECACHE_LIST = [
   "./img/icon_wechat.png",
   "./img/avatar-y.jpg",
   //"./img/home-bg.jpg",
+  "./img/post-bg-js-module.jpg",
   "./img/404-bg.jpg",
   "./css/y-blog.min.css",
   "./css/bootstrap.min.css"
